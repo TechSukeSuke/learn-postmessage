@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <title>送信元</title>
+  <style>
+
+  </style>
   <script>
     const onClickButton = () => {
       const input = document.getElementById("input");
@@ -14,9 +17,13 @@
 </head>
 
 <body>
-  <h1>送信元</h1>
-  <textarea id="input">このテキストを送るよ！</textarea>
-  <input type="button" value="データを送る" onclick="onClickButton();" />
+  <div>
+    <h1>送信元</h1>
+    <p>
+      <textarea id="input">このテキストを送るよ！</textarea>
+      <input type="button" value="データを送る" onclick="onClickButton();" />
+    </p>
+  </div>
 
   <iframe id="iframe" srcdoc='
 <!DOCTYPE html>
