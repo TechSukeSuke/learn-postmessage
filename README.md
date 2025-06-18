@@ -1,18 +1,7 @@
-# postmessage-sample
-
-PostMessageによる、異なるオリジン間での通信のサンプルです。
-
-こちらの記事で書いたものです。
-https://zenn.dev/ncdc/articles/49098d7d16f8ee
-
-## 使い方
-
-1. http-serverを立ち上げてください
+1. http-serverを起動
 ```
 npx http-server
 ```
 
-2. ブラウザから、`http://127.0.0.1:8080/src.html`に接続してください。
-3. 適当にテキストを入力して、`別タブで開く`を押下。
-4. 入力したテキストが、開いた別タブに連携されます。
+2. ブラウザから、`http://127.0.0.1:8080/first.html`に接続してください。
 
